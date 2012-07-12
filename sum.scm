@@ -1,3 +1,4 @@
+; Sum of a list of numbers
 (define sum
  (lambda(lat)
   (cond

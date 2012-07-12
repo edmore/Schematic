@@ -1,3 +1,4 @@
+; The length of a list of S-Expressions
 (define len
   (lambda(lat)
     (cond

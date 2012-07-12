@@ -1,3 +1,4 @@
+; Factorial of a number
 (define factorial
   (lambda(x)
     (cond
