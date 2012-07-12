@@ -2,6 +2,7 @@
 (define get_even
   (lambda(lat)
     (cond
-    ((null? lat) '())
-    (else (cons (even? (car lat)) (get_even (cdr lat) )))
-  )))
+      ((null? lat) '())
+      ((even? (car lat))(cons (car lat) (get_even (cdr lat))))
+      (else (get_even (cdr lat)))
+      )))
