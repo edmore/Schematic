@@ -5,4 +5,6 @@
       ((null? lat) '())
       ((even? (car lat))(cons (car lat) (get_even (cdr lat))))
       (else (get_even (cdr lat)))
-      )))
+      )
+    )
+  )
