@@ -3,5 +3,4 @@
   (lambda(ll)
     (cond
     ((null? ll) '())
-    (else (cons (car(car ll)) (firsts (cdr ll))))
-    )))
+    (else (cons (car(car ll)) (firsts (cdr ll)))))))
