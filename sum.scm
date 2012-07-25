@@ -1,5 +1,4 @@
-
-; Sum of a list of numbers
+; Sum of a list of numbers ( a tuple )
 (define sum
   (lambda(lat)
     (cond
