@@ -1,4 +1,4 @@
-; Extract the even numbers from a list of numeric atoms
+; Extract the even numbers from a tuple
 (define get_even
   (lambda(lat)
     (cond
