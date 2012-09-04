@@ -1,4 +1,4 @@
-; Add consecutive tuples to one another
+; Add consecutive numeric tuples to one another
 (define tup+
  (lambda(x y)
   (cond
